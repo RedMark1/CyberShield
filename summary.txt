@@ -1,0 +1,117 @@
+# SafeSiteScanner
+
+SafeSiteScanner is a modern, non-intrusive web security scanner built with Streamlit. It helps users assess the security posture of websites by checking for missing security headers, inspecting TLS certificates, analyzing robots.txt and sitemap.xml files, probing common endpoints, and integrating threat intelligence. The tool presents results in a user-friendly format with summary cards, tables, charts, and real-time attack path visualizations. It also supports combining reports from other security tools and exporting structured vulnerability reports.
+
+---
+
+## Features
+
+- **Progress Bar & Status:** See scan progress and elapsed time.
+- **Summary Cards:** Quick overview of HTTP status, TLS, and security headers.
+- **Security Header Analysis:** Checks for common security headers.
+- **TLS Certificate Inspection:** Shows expiry, issuer, and subject.
+- **robots.txt & sitemap.xml:** Fetches and summarizes these files.
+- **Common Endpoint Checks:** HEAD requests to typical sensitive paths.
+- **Threat Intelligence Integration:** Fetches CVE data from NVD for detected components.
+- **Structured Vulnerability Reporting:** Tables, charts, summary statistics, and PDF export.
+- **Attack Path Visualization:** Real-time graph of how vulnerabilities could be chained.
+- **Combine Reports:** Upload and merge findings from other tools (Nmap, Nessus, etc.).
+- **Scan History:** View and manage previous scan results.
+
+---
+
+## Legal & Ethical Notice
+
+**Only scan sites you own or have explicit permission to test.**  
+This tool performs passive checks only and is intended for educational and authorized use.
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8+
+- [pip](https://pip.pypa.io/en/stable/installation/)
+- Internet connection
+
+### Install dependencies
+
+Open your terminal and run:
+
+```sh
+pip install streamlit requests pandas matplotlib networkx pdfkit
+```
+
+For PDF export, you must also install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) and ensure it is in your system PATH.
+
+---
+
+## Usage
+
+1. **Save the code as `app.py` in your project folder.**
+2. **Open a terminal in your project folder.**
+3. **Run the Streamlit app:**
+
+    ```sh
+    streamlit run app.py
+    ```
+
+4. **A browser window will open. Enter the target domain or URL and click "Start scan".**
+
+---
+
+## Combining External Reports
+
+- Use the sidebar to upload JSON reports from other tools (Nmap, Nessus, etc.).
+- These vulnerabilities will be merged with the current scan and included in the attack path visualization and structured report.
+
+---
+
+## PDF Export
+
+- Vulnerability reports can be exported as PDF if `pdfkit` and `wkhtmltopdf` are installed.
+- If PDF export fails, ensure `wkhtmltopdf` is installed and available in your system PATH.
+
+---
+
+## Troubleshooting
+
+- **TLS certificate check fails:**  
+  Some sites may block direct socket connections or use non-standard ports.
+
+- **Progress bar or UI not updating:**  
+  Make sure you are running the latest version of Streamlit.
+
+- **Module not found errors:**  
+  Double-check that you installed all required Python packages.
+
+- **PDF export error:**  
+  Install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) and ensure it is in your PATH.
+
+---
+
+## Customization
+
+- **Add more endpoints:**  
+  Edit the `COMMON_ENDPOINTS` list in `app.py`.
+- **Change security headers checked:**  
+  Edit the `SECURITY_HEADERS` list in `app.py`.
+
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## Credits
+
+- Built with [Streamlit](https://streamlit.io/)
+- CVE data from [NVD](https://nvd.nist.gov/)
+- Inspired by OWASP security header best practices
+
+---
+
+*For questions or suggestions, open an issue or contact the author.*

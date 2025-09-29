@@ -1,0 +1,89 @@
+# SafeSiteScanner
+
+SafeSiteScanner is a non-intrusive web security scanner with a modern UI built using [Streamlit](https://streamlit.io/).  
+It helps you quickly assess the security posture of a website by checking HTTP headers, TLS certificate metadata, robots/sitemap files, and common endpoints.
+
+## Features
+
+- **Progress Bar & Status:** See scan progress and elapsed time.
+- **Summary Cards:** Quick overview of HTTP status, TLS, and security headers.
+- **Security Header Analysis:** Checks for common security headers.
+- **TLS Certificate Inspection:** Shows expiry, issuer, and subject.
+- **robots.txt & sitemap.xml:** Fetches and summarizes these files.
+- **Common Endpoint Checks:** HEAD requests to typical sensitive paths.
+- **Recommendations:** Simple, actionable security advice.
+- **Downloadable JSON Report:** Export scan results for further analysis.
+
+## Legal & Ethical Notice
+
+**Only scan sites you own or have explicit permission to test.**  
+This tool performs passive checks only and is intended for educational and authorized use.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8+
+- [pip](https://pip.pypa.io/en/stable/installation/)
+- Internet connection
+
+### Install dependencies
+
+Open your terminal and run:
+
+```sh
+pip install streamlit requests
+```
+
+## Usage
+
+1. **Save the code as `app.py` in your project folder.**
+2. **Open a terminal in your project folder.**
+3. **Run the Streamlit app:**
+
+    ```sh
+    streamlit run app.py
+    ```
+
+4. **A browser window will open. Enter the target domain or URL and click "Start scan".**
+
+## Example
+
+![screenshot](docs/screenshot.png) <!-- Add a screenshot if available -->
+
+## Troubleshooting
+
+### Common Issues
+
+- **TLS certificate check fails:**  
+  Some sites may block direct socket connections or use non-standard ports.
+
+- **Progress bar or UI not updating:**  
+  Make sure you are running the latest version of Streamlit.
+
+- **Module not found errors:**  
+  Double-check that you installed all required Python packages.
+
+### Windows-specific
+
+If you see errors related to SSL or sockets, try running your terminal as administrator.
+
+## Customization
+
+- **Add more endpoints:**  
+  Edit the `COMMON_ENDPOINTS` list in `app.py`.
+- **Change security headers checked:**  
+  Edit the `SECURITY_HEADERS` list in `app.py`.
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+## Credits
+
+- Built with [Streamlit](https://streamlit.io/)
+- Inspired by OWASP security header best practices
+
+---
+
+*For questions or suggestions, open an issue or contact the author.*

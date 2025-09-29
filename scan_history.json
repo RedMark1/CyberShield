@@ -1,0 +1,973 @@
+[
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T19:18:29.288771Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 19:17:23 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=3rk895mh1ktq4kpedr6e2tjia6; expires=Mon, 29-Sep-2025 19:17:23 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12127",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "notBefore": "Mar 25 04:43:22 2025 GMT",
+        "notAfter": "Mar 25 04:43:22 2026 GMT",
+        "subject": [
+          [
+            [
+              "commonName",
+              "hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "GR"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Hellenic Academic and Research Institutions CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "HARICA DV TLS RSA"
+            ]
+          ]
+        ]
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 15028
+        }
+      },
+      "common_endpoints": {
+        "/": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/"
+        },
+        "/robots.txt": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/robots.txt"
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/sitemap.xml"
+        },
+        "/admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/admin/"
+        },
+        "/login": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/login"
+        },
+        "/.git/": {
+          "status_code": 403,
+          "final_url": "https://www.hackthissite.org/.git/"
+        },
+        "/backup/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/backup/"
+        },
+        "/env": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/env"
+        },
+        "/wp-admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/wp-admin/"
+        }
+      }
+    },
+    "elapsed_seconds": 26.82
+  },
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T19:17:22.449759Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 19:17:23 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=3rk895mh1ktq4kpedr6e2tjia6; expires=Mon, 29-Sep-2025 19:17:23 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12127",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "notBefore": "Mar 25 04:43:22 2025 GMT",
+        "notAfter": "Mar 25 04:43:22 2026 GMT",
+        "subject": [
+          [
+            [
+              "commonName",
+              "hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "GR"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Hellenic Academic and Research Institutions CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "HARICA DV TLS RSA"
+            ]
+          ]
+        ]
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 14976
+        }
+      },
+      "common_endpoints": {
+        "/": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/"
+        },
+        "/robots.txt": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/robots.txt"
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/sitemap.xml"
+        },
+        "/admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/admin/"
+        },
+        "/login": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/login"
+        },
+        "/.git/": {
+          "status_code": 403,
+          "final_url": "https://www.hackthissite.org/.git/"
+        },
+        "/backup/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/backup/"
+        },
+        "/env": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/env"
+        },
+        "/wp-admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/wp-admin/"
+        }
+      }
+    },
+    "elapsed_seconds": 26.89
+  },
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T19:07:03.969876Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 19:01:49 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=4lahgaslugamtosdimdjpiani0; expires=Mon, 29-Sep-2025 19:01:49 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12100",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "notBefore": "Mar 25 04:43:22 2025 GMT",
+        "notAfter": "Mar 25 04:43:22 2026 GMT",
+        "subject": [
+          [
+            [
+              "commonName",
+              "hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "GR"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Hellenic Academic and Research Institutions CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "HARICA DV TLS RSA"
+            ]
+          ]
+        ]
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 15021
+        }
+      },
+      "common_endpoints": {
+        "/": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/"
+        },
+        "/robots.txt": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/robots.txt"
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/sitemap.xml"
+        },
+        "/admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/admin/"
+        },
+        "/login": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/login"
+        },
+        "/.git/": {
+          "status_code": 403,
+          "final_url": "https://www.hackthissite.org/.git/"
+        },
+        "/backup/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/backup/"
+        },
+        "/env": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/env"
+        },
+        "/wp-admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/wp-admin/"
+        }
+      }
+    },
+    "elapsed_seconds": 38.5
+  },
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T18:57:14.483453Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 18:57:16 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=blepbki9caeq44t6luq9mfmcm0; expires=Mon, 29-Sep-2025 18:57:16 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12095",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "notBefore": "Mar 25 04:43:22 2025 GMT",
+        "notAfter": "Mar 25 04:43:22 2026 GMT",
+        "subject": [
+          [
+            [
+              "commonName",
+              "hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "GR"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Hellenic Academic and Research Institutions CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "HARICA DV TLS RSA"
+            ]
+          ]
+        ]
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 14893
+        }
+      }
+    },
+    "elapsed_seconds": 13.58
+  },
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T18:56:19.355373Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 18:56:20 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=uclb5jltfi70epc5ga4ila85f5; expires=Mon, 29-Sep-2025 18:56:20 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12072",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "notBefore": "Mar 25 04:43:22 2025 GMT",
+        "notAfter": "Mar 25 04:43:22 2026 GMT",
+        "subject": [
+          [
+            [
+              "commonName",
+              "hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "GR"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Hellenic Academic and Research Institutions CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "HARICA DV TLS RSA"
+            ]
+          ]
+        ]
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 15112
+        }
+      }
+    },
+    "elapsed_seconds": 10.79
+  },
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T18:53:42.531875Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 18:53:44 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=d5nl9cd4nlf7o23jqpa6gae2h7; expires=Mon, 29-Sep-2025 18:53:44 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12074",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "notBefore": "Mar 25 04:43:22 2025 GMT",
+        "notAfter": "Mar 25 04:43:22 2026 GMT",
+        "subject": [
+          [
+            [
+              "commonName",
+              "hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "GR"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Hellenic Academic and Research Institutions CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "HARICA DV TLS RSA"
+            ]
+          ]
+        ]
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 15042
+        }
+      },
+      "common_endpoints": {
+        "/": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/"
+        },
+        "/robots.txt": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/robots.txt"
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/sitemap.xml"
+        },
+        "/admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/admin/"
+        },
+        "/login": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/login"
+        },
+        "/.git/": {
+          "status_code": 403,
+          "final_url": "https://www.hackthissite.org/.git/"
+        },
+        "/backup/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/backup/"
+        },
+        "/env": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/env"
+        },
+        "/wp-admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/wp-admin/"
+        }
+      }
+    },
+    "elapsed_seconds": 35.17
+  },
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T18:16:57.058774Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 18:16:58 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=qt1getjbctdlhrlopg0fthonc1; expires=Mon, 29-Sep-2025 18:16:58 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12075",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "notBefore": "Mar 25 04:43:22 2025 GMT",
+        "notAfter": "Mar 25 04:43:22 2026 GMT",
+        "subject": [
+          [
+            [
+              "commonName",
+              "hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "GR"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Hellenic Academic and Research Institutions CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "HARICA DV TLS RSA"
+            ]
+          ]
+        ]
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 15071
+        }
+      },
+      "common_endpoints": {
+        "/": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/"
+        },
+        "/robots.txt": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/robots.txt"
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/sitemap.xml"
+        },
+        "/admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/admin/"
+        },
+        "/login": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/login"
+        },
+        "/.git/": {
+          "status_code": 403,
+          "final_url": "https://www.hackthissite.org/.git/"
+        },
+        "/backup/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/backup/"
+        },
+        "/env": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/env"
+        },
+        "/wp-admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/wp-admin/"
+        }
+      }
+    },
+    "elapsed_seconds": 24.64
+  },
+  {
+    "target": "https://www.hackthissite.org",
+    "scanned_at": "2025-09-28T18:11:58.859195Z",
+    "results": {
+      "http_fetch": {
+        "status_code": 200,
+        "final_url": "https://www.hackthissite.org/",
+        "headers": {
+          "Date": "Sun, 28 Sep 2025 18:12:03 GMT",
+          "Upgrade": "h2,h2c",
+          "Connection": "Upgrade",
+          "Set-Cookie": "HackThisSite=4u58j7ghl78d2gmkghvr3atmd2; expires=Mon, 29-Sep-2025 18:12:03 GMT; path=/",
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Pragma": "no-cache",
+          "Onion-Location": "http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip",
+          "Content-Length": "12098",
+          "Content-Type": "text/html",
+          "Content-Language": "en",
+          "Server": "HackThisSite",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin",
+          "X-XSS-Protection": "0",
+          "Feature-Policy": "fullscreen *",
+          "Public-Key-Pins-Report-Only": "pin-sha256=\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\"; pin-sha256=\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\"; max-age=2592000; includeSubDomains; report-uri=\"https://hackthissite.report-uri.com/r/d/hpkp/reportOnly\"",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Report-To": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://hackthissite.report-uri.com/a/d/g\"}],\"include_subdomains\":true}",
+          "NEL": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true,\"success_fraction\":0.0,\"failure_fraction\":0.1}"
+        }
+      },
+      "security_headers": {
+        "present": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+          "Content-Security-Policy": "child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce",
+          "Referrer-Policy": "origin-when-cross-origin"
+        },
+        "missing": [
+          "X-Frame-Options",
+          "X-Content-Type-Options",
+          "Permissions-Policy"
+        ]
+      },
+      "tls": {
+        "error": "_ssl.c:975: The handshake operation timed out"
+      },
+      "robots_sitemap": {
+        "/robots.txt": {
+          "status_code": 200,
+          "length": 66
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "length": 14955
+        }
+      },
+      "common_endpoints": {
+        "/": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/"
+        },
+        "/robots.txt": {
+          "status_code": 200,
+          "final_url": "https://www.hackthissite.org/robots.txt"
+        },
+        "/sitemap.xml": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/sitemap.xml"
+        },
+        "/admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/admin/"
+        },
+        "/login": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/login"
+        },
+        "/.git/": {
+          "status_code": 403,
+          "final_url": "https://www.hackthissite.org/.git/"
+        },
+        "/backup/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/backup/"
+        },
+        "/env": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/env"
+        },
+        "/wp-admin/": {
+          "status_code": 404,
+          "final_url": "https://www.hackthissite.org/wp-admin/"
+        }
+      }
+    },
+    "elapsed_seconds": 41.76
+  },
+  {
+    "time": "2025-09-29T00:15:27.379225",
+    "target": "https://www.hackthissite.org/",
+    "report": [
+      {
+        "Component": "Login",
+        "Description": "SQL Injection possible",
+        "CVSS": "7.5"
+      },
+      {
+        "Component": "Dashboard",
+        "Description": "XSS vulnerability",
+        "CVSS": "6.2"
+      },
+      {
+        "Component": "API",
+        "Description": "Insecure direct object reference",
+        "CVSS": "8.0"
+      },
+      {
+        "Component": "Reports",
+        "Description": "Information disclosure",
+        "CVSS": "N/A"
+      }
+    ]
+  },
+  {
+    "time": "2025-09-29T00:18:05.023599",
+    "target": "https://www.hackthissite.org/",
+    "report": [
+      {
+        "Component": "Login",
+        "Description": "SQL Injection possible",
+        "CVSS": "7.5"
+      },
+      {
+        "Component": "Dashboard",
+        "Description": "XSS vulnerability",
+        "CVSS": "6.2"
+      },
+      {
+        "Component": "API",
+        "Description": "Insecure direct object reference",
+        "CVSS": "8.0"
+      },
+      {
+        "Component": "Reports",
+        "Description": "Information disclosure",
+        "CVSS": "N/A"
+      }
+    ]
+  }
+]
